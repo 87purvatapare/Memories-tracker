@@ -4,7 +4,7 @@
 
 Memories-tracker is a full-stack MERN (MongoDB, Express.js, React, Node.js) project where users can create, view, edit, and delete their favorite memories with images, titles, and tags.
 
----
+
 
 ## 🚀 Features
 
@@ -15,7 +15,7 @@ Memories-tracker is a full-stack MERN (MongoDB, Express.js, React, Node.js) proj
 - 🌐 Responsive and modern UI with React
 - 🔧 Backend RESTful API with Express and MongoDB
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -50,8 +50,10 @@ npm start
 ## 4 🙋‍♀️ Author
 Purva Tapare
 GitHub Profile link :- https://github.com/87purvatapare
+
 💼 LinkedIn :- https://www.linkedin.com/in/purva-tapare05/
-✉️ Email:- purvatapare@gmail.com 
+
+✉️ Email:- 87taparepurva@gmail.com 
 
 
 💡 Inspiration
