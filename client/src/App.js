@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Container, AppBar, Typography, Grow, Grid } from '@material-ui/core';
 import { useDispatch } from 'react-redux';
 
@@ -8,7 +9,12 @@ import { getPosts } from './actions/posts';
 import useStyles from './styles';
 import memories from './images/memories.png';
 
-const App = () => {
+import Signup from './pages/Signup';
+import Login from './pages/Login';
+import PrivateRoute from './components/PrivateRoute';
+
+// Dashboard component for authenticated users
+const Dashboard = () => {
   const [currentId, setCurrentId] = useState(0);
   const dispatch = useDispatch();
   const classes = useStyles();
@@ -25,7 +31,7 @@ const App = () => {
       </AppBar>
       <Grow in>
         <Container>
-          <Grid container justify="space-between" alignItems="stretch" spacing={3}>
+          <Grid container justifyContent="space-between" alignItems="stretch" spacing={3}>
             <Grid item xs={12} sm={7}>
               <Posts setCurrentId={setCurrentId} />
             </Grid>
@@ -38,5 +44,21 @@ const App = () => {
     </Container>
   );
 };
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Signup />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/dashboard" element={
+          <PrivateRoute>
+            <Dashboard />
+          </PrivateRoute>
+        } />
+      </Routes>
+    </Router>
+  );
+}
 
 export default App;
