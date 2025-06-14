@@ -73,7 +73,7 @@ Built while learning the MERN stack by following real-world practices. Inspired 
 📊 Dashboard analytics for posts
 
 
-5 ###🧰 Skills & Tools Used
+5 ###🧰** Skills & Tools Used**
 ##💻 Frontend
 React.js – Component-based frontend framework
 
@@ -92,7 +92,7 @@ JavaScript (ES6+) – Core scripting language
 HTML5 & CSS3 – Markup and styling
 
 
-6 ###🛠️ Backend
+6 **###🛠️ Backend**
 Node.js – JavaScript runtime for backend
 
 Express.js – Web framework for APIs and routing
@@ -106,7 +106,7 @@ JWT (JSON Web Tokens) – User authentication
 bcrypt.js – Password hashing
 
 
-7 ###⚙️ Dev Tools & Others
+7 ###⚙️** Dev Tools & Others**
 Git & GitHub – Version control and hosting
 
 Postman – API testing and development
@@ -120,7 +120,7 @@ Nodemon – Auto-restarting dev server
 ESLint & Prettier – Code formatting and linting
 
 
-8 ⭐️ Show your support
+8 ⭐️ **Show your support**
 If you found this project useful, please consider giving it a ⭐️ on GitHub.
 It helps others discover the project and motivates me to keep building
 
