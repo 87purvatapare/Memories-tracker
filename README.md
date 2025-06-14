@@ -42,12 +42,12 @@ cd Memories-tracker
 ### 2. Install server dependencies 
   cd server 
   npm install
+  
 ### 3.  Install client dependencies
 cd client
 npm start
 
-
-🙋‍♀️ Author
+## 4 🙋‍♀️ Author
 Purva Tapare
 GitHub Profile link :- https://github.com/87purvatapare
 💼 LinkedIn :- https://www.linkedin.com/in/purva-tapare05/
@@ -71,7 +71,7 @@ Built while learning the MERN stack by following real-world practices. Inspired 
 📊 Dashboard analytics for posts
 
 
-###🧰 Skills & Tools Used
+5 ###🧰 Skills & Tools Used
 ##💻 Frontend
 React.js – Component-based frontend framework
 
@@ -89,7 +89,8 @@ JavaScript (ES6+) – Core scripting language
 
 HTML5 & CSS3 – Markup and styling
 
-###🛠️ Backend
+
+6 ###🛠️ Backend
 Node.js – JavaScript runtime for backend
 
 Express.js – Web framework for APIs and routing
@@ -102,7 +103,8 @@ JWT (JSON Web Tokens) – User authentication
 
 bcrypt.js – Password hashing
 
-###⚙️ Dev Tools & Others
+
+7 ###⚙️ Dev Tools & Others
 Git & GitHub – Version control and hosting
 
 Postman – API testing and development
@@ -116,7 +118,7 @@ Nodemon – Auto-restarting dev server
 ESLint & Prettier – Code formatting and linting
 
 
-⭐️ Show your support
+8 ⭐️ Show your support
 If you found this project useful, please consider giving it a ⭐️ on GitHub.
 It helps others discover the project and motivates me to keep building
 
